@@ -15,4 +15,6 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
+  font-family: 'Roboto', sans-serif;
+  padding: 3rem;
 }
