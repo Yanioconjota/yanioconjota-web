@@ -17,4 +17,11 @@ body {
   background: rgb(var(--background-rgb));
   font-family: 'Roboto', sans-serif;
   padding: 3rem;
+
+  @media screen and (max-width: 768px) {
+    img {
+      width: 100%;
+    }
+    
+  }
 }

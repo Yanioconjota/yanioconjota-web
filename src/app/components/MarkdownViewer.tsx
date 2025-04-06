@@ -17,7 +17,7 @@ export default function MarkdownViewer() {
   }, [])
 
   return (
-    <div className="prose dark:prose-invert max-w-3xl mx-auto p-6">
+    <div className="prose dark:prose-invert max-w-3xl mx-auto p-6 col-12">
       <ReactMarkdown
         components={{
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
